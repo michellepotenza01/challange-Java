@@ -1,29 +1,19 @@
-FROM openjdk:21-jdk-slim AS builder
-WORKDIR /workspace/app
-
-# Copy gradle files first (cache optimization)
-COPY gradlew .
-COPY gradle/wrapper gradle/wrapper
-COPY build.gradle .
-COPY settings.gradle .
-COPY src src
-
-# Make gradlew executable and build
-RUN chmod +x gradlew
-RUN ./gradlew clean build -x test
-
-# Runtime stage - IMAGEM FINAL QUE VAI PRO AZURE
-FROM openjdk:21-jdk-slim
+FROM gradle:8.10-jdk21 AS build
 WORKDIR /app
-
-# Copy the built jar from builder stage
-COPY --from=builder /workspace/app/build/libs/*.jar app.jar
-
-# Create a non-root user for security (IMPORTANTE para Azure)
-RUN groupadd -r spring && useradd -r -g spring spring
-USER spring
-
-# Expose port 8080 (EXIGIDO pela sua aplicação)
+ 
+COPY . .
+ 
+RUN gradle clean build -x test
+ 
+ 
+FROM eclipse-temurin:21-jdk-jammy
+WORKDIR /app
+ 
+ 
+COPY --from=build /app/build/libs/*.jar app.jar
+ 
+ 
 EXPOSE 8080
-
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ 
+ 
+ENTRYPOINT ["java", "-jar", "app.jar"]
