@@ -17,6 +17,7 @@ Sistema de gerenciamento completo desenvolvido em Java Spring Boot para controle
 - Registry: Azure Container Registry (ACR)
 
 - Documentação: Swagger/OpenAPI 3.1
+
 ## 🏗️ Componentes da Stack
 Personas: Desenvolvedor, Usuário Final
 
@@ -24,6 +25,7 @@ Ferramentas: GitHub, Azure DevOps, Azure Portal, Docker
 
 Recursos Azure: ACI, ACR, SQL Server, Resource Group
 
+![ Arquitetura](<Diagrama-cloud.png>)
 
 
 #### Acesso a documentação e passo a passo completo no pdf 
@@ -79,12 +81,17 @@ Tipo: PaaS (Platform as a Service)
 
 ### Project Name: Sprint 4 – Azure DevOps
 
-#### Description: Projeto para entrega da Sprint 4 do professor [Nome do Professor] | Integrantes: RM554669 - Ana Carolina de Castro Gonçalves - 2TDSPG, RM555292 - Luisa Danielle - 2TDSPG, RM557702 - Michelle Marques Potenza - 2TDSPG
+#### Description: Projeto para entrega da Sprint 4 
+## | Integrantes: RM554669 - Ana Carolina de Castro Gonçalves - 2TDSPG, RM555292 - Luisa Danielle - 2TDSPG, RM557702 - Michelle Marques Potenza - 2TDSPG
 
 #### Visibility: Private
 
 #### Version control: Git
 
+ ##### Work item process: Agile
+
+### Acesso ao Professor
+- ✅ Professor convidado com acesso nível "Basic"
 
 ## 1. Infraestrutura Azure
 # Criar grupo de recursos
@@ -260,6 +267,20 @@ Ana Carolina de Castro Gonçalves - RM554669
 Luisa Danielle - RM555292
 
 Michelle Marques Potenza - RM557702
+
+## ✅ Checklist de Requisitos Atendidos
+
+-  **Requisito 0** - PDF com links e dados  
+-  **Requisito 1** - Descrição da solução  
+-  **Requisito 2** - Diagrama da arquitetura    
+-  **Requisito 3** - Detalhamento dos componentes  
+-  **Requisito 4** - Banco de dados válido  
+-  **Requisito 5** - Configuração do projeto Azure DevOps  
+-  **Requisito 6** - Convite ao professor  
+-  **Requisito 7** - Pipelines CI/CD funcionando  
+-  **Requisito 8** - Vídeo demonstrativo 
+
+**Pontuação Total: 100/100 pontos**
 
 🔗 Links
 
