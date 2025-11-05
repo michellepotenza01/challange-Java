@@ -290,7 +290,6 @@ Azure DevOps: https://dev.azure.com/rm555292LD/Sprint%204%20%E2%80%93%20Azure%20
 
 Vídeo Demonstração: 
 
-Documentação completa e passo a passo no PDF.
+Documentação completa e passo detalahdos no PDF.
 
-Projeto completo!
 
