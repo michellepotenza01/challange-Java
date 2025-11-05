@@ -280,7 +280,6 @@ Michelle Marques Potenza - RM557702
 -  **Requisito 7** - Pipelines CI/CD funcionando  
 -  **Requisito 8** - Vídeo demonstrativo 
 
-**Pontuação Total: 100/100 pontos**
 
 🔗 Links
 
