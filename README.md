@@ -283,13 +283,16 @@ Michelle Marques Potenza - RM557702
 
 🔗 Links
 
+Azure DevOps: https://dev.azure.com/rm555292LD/Sprint 4 – Azure DevOps/_build
 
-Azure DevOps: https://dev.azure.com/rm555292LD/Sprint%204%20%E2%80%93%20Azure%20DevOps/_build
+Vídeo Demonstração: https://youtu.be/Qs_3tU2SDBU 
 
+Repositório GitHub: https://github.com/michellepotenza01/challange-Java 
 
-Vídeo Demonstração: 
+Documentação completa e passos detalahdos no PDF.
 
-Documentação completa e passo detalahdos no PDF.
-
-Projeto completo!
+Acesso do professor:
+Antonio Sergio Rodrigues Figueiredo
+Contact information
+Email: pf1776@fiap.com.br
 
